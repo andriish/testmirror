@@ -33,6 +33,3 @@ lcg-alma9-arm:
     K8TAG: arm
     CTAG: arm
   extends: .lcg-alma9
-
-    - release-x86_64
-  extends: .eos
