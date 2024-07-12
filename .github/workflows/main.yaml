@@ -11,6 +11,6 @@ jobs:
             fetch-depth: 0
         - uses: yesolutions/mirror-action@master
           with:
-            REMOTE: git@gitlab.cern.ch:7999/averbyts/testmirrorx.git
-            GIT_SSH_PRIVATE_KEY: ${{ secrets.GITLAB_SSH_PRIVATE_KEY }}
+            REMOTE: git@gitlab.mpcdf.mpg.de:andriish/ghmr.git
+            GIT_SSH_PRIVATE_KEY: ${{ secrets.MPCDF }}
             GIT_SSH_NO_VERIFY_HOST: "true"
