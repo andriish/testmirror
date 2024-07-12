@@ -18,6 +18,7 @@ stages:
     - TOP=$(pwd)
     - cd $TOP
     - pwd
+    - ls /cvmfs
 
 
 lcg-alma9-x86_64:
